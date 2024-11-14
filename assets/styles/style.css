@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #666;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f7f7f7;
+}
+
+.navbar {
+  position:absolute;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 120%;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+}
+
+.nav_links li {
+  margin-left: 20px;
+}
+
+.nav_links a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero {
+  background: url("../pictures/hero.png") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero_content h1 {
+  font-size: 2.5rem;
+}
+
+.hero_content p {
+  margin: 10px 0 20px;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.categories {
+  background-color: #f8f8f8;
+  padding: 15px;
+  text-align: center;
+}
+
+.categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.categories li {
+  margin: 0 15px;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+}
+
+.featured_posts {
+  padding:  20px;
+  text-align: center;
+}
+
+.featured_posts h2 {
+  margin-bottom: 20px;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.featured_posts {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.post {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post_content {
+  padding: 15px;
+}
+
+.post_content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.post_content p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.most_recent {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.post_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  font-size: 0.9em;
+  color: #999;
+  margin-bottom: 21px;
+}
+
+.most_recent h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.recent_posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.post h3 {
+  font-size: 1.2em;
+  margin: 15px;
+}
+
+.post p {
+  color: #666;
+  margin: 0 15px 15px;
+}
+
+.post-info img {
+  width: 20px;
+  height: 20px;
+}
+
+.post {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.post img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.post h3 {
+  font-size: 1.2em;
+  margin: 15px;
+}
+
+.post p {
+  color: #666;
+  margin: 0 15px;
+  flex-grow: 1;
+}
+
+.post_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.post_info img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.stay_in_touch {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("../pictures/footer.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.stay_in_touch h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.subscribe input {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  width: 250px;
+}
+
+.subscribe button {
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.subscribe button:hover {
+  background-color: #555;
+}
+
+.most_recent {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.most_recent h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.recent_posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.logo{
+  width: 200px;
+  margin-bottom: 20px;
+  
+}
